@@ -7,13 +7,13 @@ using namespace std;
 
 int main() {
     vector<int> datosV;
-    datosV.reserve(5); // reservado pero no asignado
+    datosV.reserve(5); 
 
     for (int i = 0; i < 5; i++) {
-        datosV.push_back(i % 2); // asigna elemento
+        datosV.push_back(i % 2); 
     }
 
-    cout << datosV.size() << endl; // cuántos?
+    cout << datosV.size() << endl; 
 
     for (int i = 0; i < datosV.size(); i++) {
         cout << datosV[i] << endl;
